@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "lib": ["ES2023"],
+    "types": ["vitest/globals"],
+    "sourceMap": true
+  }
+}

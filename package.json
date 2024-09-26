@@ -1,0 +1,27 @@
+{
+  "name": "web-scraper-test",
+  "version": "0.0.1",
+  "description": "Web Scraper Test",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --watch src/index.ts",
+    "test": "vitest",
+    "inspect": "NODE_OPTIONS=--inspect tsx src/index.ts"
+  },
+  "author": "Ulisses Cruz",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.6.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "node-html-parser": "^6.1.13",
+    "tsx": "^4.19.1"
+  }
+}
